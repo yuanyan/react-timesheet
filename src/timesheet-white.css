@@ -1,0 +1,71 @@
+.timesheet.white {
+  border-top: 1px solid rgba(60, 60, 60, 0.3);
+  background-color: #fbfbfb;
+  position: relative; }
+  .timesheet.white .scale {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left; }
+    .timesheet.white .scale section {
+      float: left;
+      width: 59px;
+      text-align: center;
+      color: rgba(50, 50, 50, 0.8);
+      font-family: "Signika Negative";
+      font-size: 13px;
+      line-height: 24px;
+      font-weight: 300;
+      border-left: 1px dashed rgba(50, 50, 50, 0.1);
+      height: 100%; }
+  .timesheet.white .data {
+    margin: 28px 0 0 0;
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+    color: rgba(250, 250, 250, 0.8);
+    font-family: "Signika Negative";
+    font-size: 13px;
+    overflow: hidden; }
+    .timesheet.white .data li {
+      margin: 0 0 3px 0;
+      line-height: 22px;
+      height: 21px;
+      display: block;
+      cursor: pointer;
+      clear: both;
+      position: relative;
+      white-space: nowrap; }
+      .timesheet.white .data li:hover .bubble {
+        opacity: 1; }
+      .timesheet.white .data li .date {
+        color: #797979;
+        font-size: 14px; }
+      .timesheet.white .data li .label {
+        font-weight: lighter;
+        font-size: 14px;
+        padding-left: 5px;
+        line-height: 21px;
+        color: #333332;
+        white-space: nowrap; }
+      .timesheet.white .data li .bubble {
+        width: 24px;
+        height: 7px;
+        display: block;
+        float: left;
+        position: relative;
+        top: 7px;
+        border-radius: 4px;
+        margin: 0 10px 0 0;
+        opacity: 0.7; }
+      .timesheet.white .data li .bubble-default {
+        background-color: #fc464a; }
+      .timesheet.white .data li .bubble-lorem {
+        background-color: #9aca27; }
+      .timesheet.white .data li .bubble-ipsum {
+        background-color: #3cb6e3; }
+      .timesheet.white .data li .bubble-dolor {
+        background-color: #f4cf30; }
+      .timesheet.white .data li .bubble-sit {
+        background-color: #a969ca; }
