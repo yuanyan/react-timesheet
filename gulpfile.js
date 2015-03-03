@@ -166,8 +166,8 @@ gulp.task('dev:build:example:copy', function(){
     return gulp.src(EXAMPLE_COPY)
         .pipe(gulp.dest(EXAMPLE_DIST_PATH))
         .pipe(connect.reload());
-})
-gulp.task('build:example:copy', ['prepare:examples', 'dev:build:example:copy'])
+});
+gulp.task('build:example:copy', ['dev:build:example:copy']);
 
 
 gulp.task('dev:build:example:scripts', buildExampleScripts(true));
